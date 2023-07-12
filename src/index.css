@@ -61,7 +61,9 @@ h1{
 
 /* every component will be wrapped into section */
 section{
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
+  height: 100vh;
+  border: white solid;
 }
 /* h2 and h5 are children of section */
 section > h2, seciont > h5{
@@ -127,7 +129,7 @@ img{
     width: var(--container-width-md);
   }
   section{
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
   }
 }
 /* ==========MEDIUM DEVICES (on mobile)========== */
@@ -137,7 +139,7 @@ img{
     width: var(--container-width-sm);
   }
   section > h2{
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
   }
 }
 

@@ -1,0 +1,37 @@
+
+
+nav{
+    background: rgba(200, 204, 218, 0.3);
+    max-width: max-content;
+    display: block;
+    padding: 0.2rem  1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5rem;
+    display: flex;
+    gap:  5rem;
+    border-radius:  2rem;
+
+    /* TODO */
+    backdrop-filter: blur(15px);
+
+}
+
+nav a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+
+}
+
+nav a:hover{
+    background: var(--color-bg);
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color:var(--color-white);
+}
