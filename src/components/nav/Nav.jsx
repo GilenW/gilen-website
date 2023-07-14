@@ -9,41 +9,46 @@ import { useState } from 'react'
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#")
 
 
   const [menuOpen, setMenuOpen] = useState(false)
   return (
 
       <nav>
-        <div className='menu' onClick={()=>{
-          setMenuOpen(!menuOpen)
-        }}>
+        <div className='menu-toggle' onClick={()=>{setMenuOpen(!menuOpen)}}>
         <RxDropdownMenu />
         </div>
 
-      <div className='menu-links'>
-        <a href='#' onClick={() => setMenuOpen(false)} >
+      <ul className={menuOpen ?  "open" : ""}>
+
+        <li>
+        <a href='#' >
           <div className="nav-item">
             <BiHomeAlt2 />
             <span>ABOUT</span>
           </div>
         </a>
+        </li>
 
-        <a href='#projects' onClick={() => setMenuOpen(false)} >
+        <li>
+        <a href='#projects'>
           <div className="nav-item">
             <MdOutlineDesignServices />
             <span>PROJECTS</span>
           </div>
         </a>
+        </li>
 
-        <a href='#experience'onClick={() => setMenuOpen(!false)} >
+        <li>
+        <a href='#experience' >
           <div className="nav-item">
             <MdWorkOutline />
             <span>EXPERIENCE</span>
           </div>
         </a>
-        </div>
+        </li>
+
+        </ul>
 
       </nav>
 

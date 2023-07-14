@@ -8,7 +8,7 @@ nav{
 }
 
 
-.menu-links{
+nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,9 +45,10 @@ nav a:hover{
 }
 
 
-.menu{
+.menu-toggle{
     font-size: 3rem;
     display: none;
+
 }
 
 
@@ -58,12 +59,18 @@ nav a:hover{
 }
 
 @media screen and (max-width:600px){
+
+
+    nav .menu-toggle{
+        display: flex;
+    }
+
+
+
     .menu-links{
         display: none;
     }
-    .menu{
-        display: flex;
-    }
+
     nav{
         border: red solid 1px;
         flex-direction: column;
@@ -71,18 +78,30 @@ nav a:hover{
         gap: 0;
 
     }
-    .menu-links{
+
+
+    nav ul{
+        display: none;
         border: red solid 1px;
         width: 100%;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-        margin: 0;
+        align-items: center;
         gap: 0;
     }
-    nav a{
-        padding: 0;
+
+    nav ul.open{
+        display: flex;
+    }
+    nav ul li {
+
+        width: 100%;
+        text-align: center;
+
     }
 
+    nav a{
+        padding: 0;
+        justify-content: center;
+    }
 
 }
