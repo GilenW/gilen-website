@@ -8,6 +8,7 @@ const About = () => {
     <section id='about'>
 
       <header >
+        
 
         <div className='container about__container'>
 

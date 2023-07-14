@@ -1,37 +1,88 @@
 
 
 nav{
-    background: rgba(200, 204, 218, 0.3);
-    max-width: max-content;
-    display: block;
-    padding: 0.2rem  1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 5rem;
     display: flex;
-    gap:  5rem;
-    border-radius:  2rem;
-
-    /* TODO */
-    backdrop-filter: blur(15px);
-
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5rem;
 }
+
+
+.menu-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 0.5rem;
+}
+
+
 
 nav a {
     background: transparent;
     padding: 0.5rem;
-    border-radius: 50%;
     display: flex;
+    color: var( --color-bg-variant);
+    border-radius: 1.5rem;
 
 }
 
 nav a:hover{
-    background: var(--color-bg);
+    background: var( --color-bg-variant);
+    color: var(--color-bg);
+    border-radius: 3.5rem;
+
 }
 
-nav a.active{
-    background: var(--color-bg);
-    color:var(--color-white);
+
+.nav-item {
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+.menu{
+    font-size: 3rem;
+    display: none;
+}
+
+
+
+@media screen and (max-width:1024px){
+
+
+}
+
+@media screen and (max-width:600px){
+    .menu-links{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    nav{
+        border: red solid 1px;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0;
+
+    }
+    .menu-links{
+        border: red solid 1px;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+    nav a{
+        padding: 0;
+    }
+
+
 }

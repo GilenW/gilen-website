@@ -7,8 +7,8 @@ import Projects from './components/projects/Projects'
 const App = () => {
   return (
     <div>
-      <About/>
       <Nav/>
+      <About/>
       <Projects/>
       <Experience/>
     </div>
