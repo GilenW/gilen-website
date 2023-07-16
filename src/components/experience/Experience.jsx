@@ -3,12 +3,18 @@ import React from 'react'
 import { experience } from './experience-list'
 import './experience.css'
 
-const ExperienceCard = ({index,name,date,position})=>{
+const ExperienceCard = ({index,name,date,position,tags})=>{
   return(
     <div className='experience-card'>
       <h3>{name}</h3>
+      <h4>{position}</h4>
       <p>{date}</p>
-      <p>{position}</p>
+
+      <ul>
+        {tags.map((tag, index) => (
+          <li key={index}>»{tag.name}</li>
+        ))}
+      </ul>
     </div>
   )
 }

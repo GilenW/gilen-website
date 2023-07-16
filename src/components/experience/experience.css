@@ -28,9 +28,26 @@
 
      transition: var(--transition) box-shadow;
      box-shadow: var(--color-bg-variant) 0px 5px;
+
+     gap: 0.5rem;
 }
 
-.experience-card:hover{
+.experience-card h3{
+    color: var(--color-bg-variant);
+}
+.experience-card h4{
+    color: rgba(0, 0, 0, 0.567);
+
+}
+
+
+.experience-card ul{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    color: #6528F7;
+    opacity: 0.7;
 
 }
 @media screen and (max-width:600px){

@@ -2,17 +2,26 @@
 
 const experience = [
     {
-        name:"Experience one",
-        date:"June 2023 - Sep 2023",
-        position:"Software Enginner"
+        name:"UC San Diego Early Research Scholars Program",
+        date:"Sep 2022 - Jun 2023",
+        position:"Undergraduate Researcher",
+        tags:[
+            {name: "Python"},
+            {name: "Flask"},
+            {name: "JavaScript"}
+
+        ]
 
 
     },
     {
-        name:"Experience one",
-        date:"June 2023 - Sep 2023",
-        position:"Software Enginner"
+        name:"Break Through Tech AI at UCLA",
+        date:"June 2023 - Present",
+        position:"Program Participant",
+        tags:[
+            {name: "Python"}
 
+        ]
 
     }
 ]

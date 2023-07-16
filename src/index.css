@@ -25,6 +25,7 @@ html{
     --color-white:white;
     --transition: all 400ms ease;
     --color-text-light:rgba(0, 0, 0, 0.683);
+    --color-skills:#A7EDE7
 
 }
 
@@ -46,7 +47,7 @@ section{
 
 /* all the tag "a" */
 a{
-    color: var(--color-primary);
+    color: var(--color-bg-variant);
     transition: var(--transition);
   }
 

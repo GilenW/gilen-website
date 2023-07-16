@@ -35,7 +35,8 @@ const About = () => {
 
           <div className='about-items information'>
             <h1>Gilen Wu Hou </h1>
-            <p>A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
+            <p>
+Hi! I'm Gilen, a passionate and driven Junior student at UCSD, majoring in Computer Science. I have a keen interest in software engineering, full-stack web development, machine learning, and data analysis. I am actively seeking opportunities to apply my knowledge and gain valuable experience. If you're looking for a dedicated and collaborative team member, please feel free to reach out! </p>
             <Social/>
           </div>
 

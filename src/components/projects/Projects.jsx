@@ -10,23 +10,24 @@ import {styles} from "../../utils/styles"
 import {AiOutlineCodeSandbox} from 'react-icons/ai'
 
 
-const ProjectCard = ({index, name, tags, source_link})=>{
+const ProjectCard = ({index, name, date,tags, source_link,description})=>{
     return (
     <div className="project-card">
 
         <div className='face face1'>
         <AiOutlineCodeSandbox className='project-icon'/>
         <h3>{name}</h3>
+        <h4 className='date'>{date}</h4>
         {/* <img src={img1} alt='' className='project-img'></img> */}
         <ul>
         {tags.map((tag, index) => (
-          <li key={index}>#{tag.name}</li>
+          <li key={index}>»{tag.name}</li>
         ))}
       </ul>
         </div>
 
         <div className='face face2'>
-            <p>Content project description</p>
+            <p>{description}</p>
             <a href={source_link} target='_blank'>Github</a>
         </div>
 
