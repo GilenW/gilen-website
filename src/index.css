@@ -18,10 +18,11 @@ html{
 }
 
 :root{
-    --color-bg:rgb(250, 240, 228);
-    --color-primary:rgb(107, 159, 164);
-    --color-primary-variant:rgb(239, 210, 210);
-    --color-bg-variant:rgb(255, 133, 81);
+    --color-bg:rgba(247, 244, 242, 0.429);
+    --color-primary:rgb(101, 40, 247);
+    --color-primary-variant:rgba(215, 187, 245, 0.425);
+    --color-bg-variant:rgb(160, 118, 249);
+    --color-white:white;
     --transition: all 400ms ease;
     --color-text-light:rgba(0, 0, 0, 0.683);
 
@@ -39,6 +40,7 @@ body{
 
 section{
     padding: 0;
+    margin-bottom: 5rem;
 
 }
 
@@ -51,5 +53,6 @@ a{
   a:hover{
     color: var(--color-primary-variant);
   }
+
 
 

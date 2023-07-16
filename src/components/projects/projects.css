@@ -45,7 +45,7 @@
 .project-container{
     position: relative;
     display: flex;
-    padding: 0 300px;
+    padding: 3rem 300px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@
     margin: 20px;
     padding: 0;
     border-radius: 2rem;
-}
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
 
 .project-card .face{
     border-radius: 2rem;
@@ -99,7 +99,6 @@ ul li {
 
 .project-card:hover .face.face1{
     transform: translateX(-100%) rotateY(90deg);
-
     transition: var(--transition);
 }
 

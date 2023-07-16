@@ -29,8 +29,8 @@ nav a {
 
 nav a:hover{
     background: var( --color-bg-variant);
-    color: var(--color-bg);
-    border-radius: 3.5rem;
+    color: var(--color-white);
+    border-radius: 0.5rem;
 
 }
 

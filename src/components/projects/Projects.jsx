@@ -16,7 +16,7 @@ const ProjectCard = ({index, name, tags, source_link})=>{
 
         <div className='face face1'>
         <AiOutlineCodeSandbox className='project-icon'/>
-        <p>{name}</p>
+        <h3>{name}</h3>
         {/* <img src={img1} alt='' className='project-img'></img> */}
         <ul>
         {tags.map((tag, index) => (
@@ -41,9 +41,9 @@ const Projects = () => {
   return (
 
     <section id='projects'>
-        <h2>My Recent Projects</h2>
+        <h2>PROJECTS</h2>
 
-        <div className='project-container'>
+        <div className='container project-container'>
 
 
 

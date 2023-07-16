@@ -30,6 +30,16 @@ const Nav = () => {
         </a>
         </li>
 
+        
+        <li>
+        <a href='#experience' >
+          <div className="nav-item">
+            <MdWorkOutline />
+            <span>EXPERIENCE</span>
+          </div>
+        </a>
+        </li>
+
         <li>
         <a href='#projects'>
           <div className="nav-item">
@@ -39,14 +49,7 @@ const Nav = () => {
         </a>
         </li>
 
-        <li>
-        <a href='#experience' >
-          <div className="nav-item">
-            <MdWorkOutline />
-            <span>EXPERIENCE</span>
-          </div>
-        </a>
-        </li>
+
 
         </ul>
 

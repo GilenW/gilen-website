@@ -1,1 +1,41 @@
 
+#experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem 0 3rem;
+    width: 800px;
+}
+
+.experience-card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    background: var(--color-primary-variant);
+    border-radius: 2rem;
+
+
+     transition: var(--transition) box-shadow;
+     box-shadow: var(--color-bg-variant) 0px 5px;
+}
+
+.experience-card:hover{
+
+}
+@media screen and (max-width:600px){
+    .experience-container{
+
+        width: 450px;
+    }
+}
