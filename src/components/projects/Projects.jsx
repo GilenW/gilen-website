@@ -7,21 +7,28 @@ import {Tilt} from "react-tilt";
 import { motion } from "framer-motion"
 import { fadeIn, textVariant } from "../../utils/motion";
 import {styles} from "../../utils/styles"
-
+import {AiOutlineCodeSandbox} from 'react-icons/ai'
 
 
 const ProjectCard = ({index, name, tags, source_link})=>{
     return (
     <div className="project-card">
 
+        <div className='face face1'>
+        <AiOutlineCodeSandbox className='project-icon'/>
         <p>{name}</p>
-
         {/* <img src={img1} alt='' className='project-img'></img> */}
         <ul>
         {tags.map((tag, index) => (
-          <li key={index}>{tag.name}</li>
+          <li key={index}>#{tag.name}</li>
         ))}
       </ul>
+        </div>
+
+        <div className='face face2'>
+            <p>Content project description</p>
+        </div>
+
     </div>
     )
 }
