@@ -27,6 +27,7 @@ const ProjectCard = ({index, name, tags, source_link})=>{
 
         <div className='face face2'>
             <p>Content project description</p>
+            <a href={source_link} target='_blank'>Github</a>
         </div>
 
     </div>

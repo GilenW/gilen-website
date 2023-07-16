@@ -12,7 +12,7 @@ const projects = [
             }
 
         ],
-        source_link: "github.com"
+        source_link: "https://github.com"
 
     },
     {
@@ -26,7 +26,7 @@ const projects = [
             }
 
         ],
-        source_link: "github.com"
+        source_link: "https://github.com"
 
     },
     {
@@ -40,7 +40,7 @@ const projects = [
             }
 
         ],
-        source_link: "github.com"
+        source_link: "https://github.com"
 
     },
     {
@@ -54,7 +54,7 @@ const projects = [
             }
 
         ],
-        source_link: "github.com"
+        source_link: "https://github.com"
 
     },
     {
@@ -68,7 +68,7 @@ const projects = [
             }
 
         ],
-        source_link: "github.com"
+        source_link: "https://github.com"
 
     }
 ]

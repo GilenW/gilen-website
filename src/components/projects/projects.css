@@ -109,6 +109,8 @@ ul li {
     background: white;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
     padding: 20px;
     transform-origin: left;
@@ -117,6 +119,21 @@ ul li {
 }
 .project-card:hover .face.face2{
     transform: translateY(0%) rotateX(0deg);
+
+}
+
+.project-card a {
+    background: var(--color-primary);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+}
+.project-card a:hover {
+    background: var(--color-bg-variant);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 
 }
 
