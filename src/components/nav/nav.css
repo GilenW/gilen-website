@@ -71,6 +71,8 @@ nav a:hover{
 
     nav .menu-toggle{
         display: flex;
+        margin-right: 2rem;
+
     }
 
 
