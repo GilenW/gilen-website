@@ -2,7 +2,7 @@
   "homepage": "https://GilenW.github.io/gilen-website",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.78.2",
