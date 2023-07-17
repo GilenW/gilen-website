@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/gilen-website/static/css/main.723517af.css",
+    "main.css": "/gilen-website/static/css/main.f0d79df2.css",
     "main.js": "/gilen-website/static/js/main.926cb40b.js",
     "static/media/myAvatar-2.png": "/gilen-website/static/media/myAvatar-2.77aad147608197c24df6.png",
     "static/media/myAvatar.png": "/gilen-website/static/media/myAvatar.4a76afd58410d6ba8786.png",
     "static/media/proj-img.png": "/gilen-website/static/media/proj-img.26206239dd4b3559330c.png",
     "static/media/side-wave_background.svg": "/gilen-website/static/media/side-wave_background.176e13317190b238f8ab5e4075a0e7e9.svg",
     "index.html": "/gilen-website/index.html",
-    "main.723517af.css.map": "/gilen-website/static/css/main.723517af.css.map",
+    "main.f0d79df2.css.map": "/gilen-website/static/css/main.f0d79df2.css.map",
     "main.926cb40b.js.map": "/gilen-website/static/js/main.926cb40b.js.map"
   },
   "entrypoints": [
-    "static/css/main.723517af.css",
+    "static/css/main.f0d79df2.css",
     "static/js/main.926cb40b.js"
   ]
 }
