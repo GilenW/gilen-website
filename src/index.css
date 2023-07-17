@@ -45,7 +45,6 @@ section{
 
 }
 
-/* all the tag "a" */
 a{
     color: var(--color-bg-variant);
     transition: var(--transition);
