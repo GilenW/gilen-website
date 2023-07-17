@@ -52,7 +52,19 @@ a{
 
   a:hover{
     color: var(--color-primary-variant);
-  }
+ }
 
 
 
+ @media screen and (max-width:600px){
+    .container{
+        max-width: 100%;
+    }
+
+
+}
+
+
+.container{
+    /* border: solid red 1px; */
+}

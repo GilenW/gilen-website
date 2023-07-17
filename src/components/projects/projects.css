@@ -130,7 +130,13 @@ ul li {
 
 }
 
+@media screen and (max-width:600px){
+    .project-container{
+        padding: 0;
+    }
 
+
+}
 
 /* //////////////////////////// */
 /* water drop effect */
