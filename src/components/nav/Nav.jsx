@@ -30,7 +30,8 @@ const Nav = () => {
         </a>
         </li>
 
-        
+
+
         <li>
         <a href='#experience' >
           <div className="nav-item">
