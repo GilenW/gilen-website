@@ -16,7 +16,7 @@ const experience = [
     },
     {
         name:"Break Through Tech AI at UCLA",
-        date:"June 2023 - Present",
+        date:"May 2023 - Present",
         position:"ML/AI Fellow",
         tags:[
             {name: "Python"},
